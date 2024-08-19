@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(163, 81, 170);
+    width: 100%;
+    align-items: center;
+  }
+  .header img {
+    width: 120px;
+    margin-right: 10px;
+
+  }
+  .header ul a:hover {
+    color: blueviolet;
+  }
+  .header ul {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15px;
+  }
+  
+  .header li {
+    list-style: none;
+    font-size: 28px;
+    margin: 0px 15px;
+  }
+  nav a{
+    font-weight: 600;
+    padding-right: 10px;
+  }
+
+a {
+    text-decoration: dotted;
+}
+  
+  .caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+  button {
+    background-color: rgb(83, 223, 176);
+    color: white;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(143, 242, 143);
+    height: 100px;
+  }
+  footer a {
+    color: rgb(3, 68, 3);
+  }
+.BulbasaurEv img{
+  width: 500px;
+  align-items: center;
+}
+.Charmander {
+  width: 500px;
+  align-items: center;
+  height: 450px;
+}
+.parrafo {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.verde {
+  color: rgb(78, 199, 114);
+}
+.rojo {
+  color: rgb(182, 66, 66)
+}
+.azul {
+  color: rgb(79, 207, 216);
+}
+.negro {
+  color: black;
+}
+.pum {
+  font-size: 30px;
+  text-align: center;
+  color: blueviolet;
+  font-weight: 600;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(108%);
+}
+@media (max-width:700px) {
+  .header{
+    flex-direction: column;
+  }
+}
+.parrafoo {
+  font-size: 40px;
+  display: flex; 
+  justify-content: left;
+  text-align: left;
+}
